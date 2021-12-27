@@ -263,6 +263,8 @@ nav .icon-burger .line {
   cursor: pointer;
   transition: color 0.5s ease-in-out;
   font-size: 40px;
+  width: 30px;
+  height: 30px;
 }
 @media (max-width: 767px) {
   .social img {
@@ -678,7 +680,6 @@ nav .icon-burger .line {
   text-decoration: none;
   color: var(--text-color);
 }
-
 .footer .boxes .pages {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -889,7 +890,6 @@ nav .icon-burger .line {
 }
 /* Slut Beskrivning */
 
-/* Start Services */
 .features {
   padding: 50px 0;
 }
@@ -931,123 +931,8 @@ nav .icon-burger .line {
   max-width: 100%;
   min-height: 353px;
 }
-/* End Services */
+/* SlutTjänster */
 
-/*#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#* Sign Up sida *#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#*/
-
-/* Start Sign Up */
-.signup {
-  padding: 100px 0;
-  text-align: center;
-}
-.signup .field {
-  margin-bottom: 40px;
-}
-@media (max-width: 767px) {
-  .signup {
-    padding: 30px 0;
-  }
-  .signup .field {
-    margin-bottom: 20px;
-  }
-}
-.signup label {
-  display: block;
-  margin: 10px 0;
-  color: rgb(49 49 49);
-  font-size: 14px;
-  text-align: start;
-  margin-left: 10%;
-}
-.signup input {
-  width: 80%;
-  max-width: 80%;
-  height: 40px;
-  outline: none;
-  background: #f2f2f2;
-  border: none;
-  padding: 15px;
-}
-.signup .field-check {
-  text-align: start;
-  margin-left: 10%;
-  display: flex;
-  align-items: center;
-}
-.signup .check {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-.signup .field-check span {
-  text-transform: capitalize;
-  font-size: 14px;
-}
-.signup .register {
-  width: 80%;
-  max-width: 80%;
-  height: 45px;
-}
-
-.signup .checkLogin {
-  text-align: start;
-  margin-left: 10%;
-}
-.signup .checkLogin span {
-  font-size: 13px;
-  color: var(--text-color);
-  margin-right: 5px;
-}
-.signup .checkLogin a {
-  color: var(--main-color);
-  text-decoration: none;
-}
-/* End Sign Up */
-
-/*#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#* Login Up sida *#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#*/
-
-/* Start Login */
-.signup.login .field-check {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin-left: 25%;
-}
-.signup.login .field-check a {
-  text-decoration: none;
-  color: var(--main-color);
-}
-.signup.login input {
-  width: 50%;
-  max-width: 50%;
-}
-
-.signup.login label {
-  margin-left: 25%;
-}
-.signup.login .register {
-  width: 50%;
-  max-width: 50%;
-}
-@media (max-width: 767px) {
-  .signup.login input {
-    width: 100%;
-    max-width: 100%;
-  }
-  .signup.login .register {
-    width: 100%;
-    max-width: 100%;
-  }
-  .signup.login label {
-    margin-left: 0;
-  }
-  .signup.login .field-check {
-    margin-left: 0;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-/* Slut Login */
 
 /*#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#* Skicka Meddelande *#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#*/
 
@@ -1154,7 +1039,7 @@ nav .icon-burger .line {
 
 /*#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#* My Own custom css *#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#*/
 
-/* Start Own CSS */
+/* Start Egen CSS */
 .text-center {
   text-align: center;
 }
@@ -1234,7 +1119,7 @@ nav .icon-burger .line {
 .btn:hover {
   opacity: 0.9;
 }
-/* End Own Framework */
+/* Slut Egen CSS */
 
 /*#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#* Grid System *#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#**#*#*#*#*/
 
